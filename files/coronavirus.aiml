@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+	<category>
+    <pattern>What questions can you answer</pattern>
+    
+    <template>Here are some of the questions I can answer:
+    What is coronavirus,
+    What are the main symptoms of COVID-19
+    </template>
+    </category>
+    
+    <category>
+    <pattern>What questions can I ask</pattern>
+    <template>
+    <srai>what questions can you answer</srai>
+    </template>
+    </category>
+    
+    <category>
+    <pattern>What is coronavirus</pattern>
+    
+    <template>Coronaviruses are a type of virus. There are many different kinds,
+    and some cause disease. A newly identified coronavirus, SARS-CoV-2, has caused
+    a worldwide pandemic of respiratory illness, called COVID-19.</template>
+    </category>
+    
+    <category>
+    <pattern>tell me about coronavirus</pattern>
+    <template>
+    <srai>what is coronavirus </srai>
+    </template>
+    </category>
+    
+    <category>
+    <pattern>What is COVID-19</pattern>
+    <template>Coronavirus disease (COVID-19) is an infectious disease caused by a
+    newly discovered coronavirus.</template>
+    </category>
+    
+    <category>
+    <pattern> tell me about COVID-19</pattern>
+    <template>
+    <srai>What is COVID-19</srai>
+    </template>
+    </category>
+    
+    <category>
+    <pattern>What are the main symptoms of COVID-19</pattern>
+    <template> The most common symptoms are fever, dry cough and tiredness.</template>
+    </category>
+    
+    <category>
+    <pattern> What are the main symptoms</pattern>
+    <template>
+    <srai>What are the main symptoms of COVID-19</srai>
+    </template>
+    </category>
+    
+    <category>
+    <pattern> What are the symptoms</pattern>
+    <template>
+    <srai>What are the main symptoms of COVID-19</srai>
+    </template>
+    </category>
+    
+    <category>
+    <pattern> What are the main symptoms *</pattern>
+    <template>
+    <srai>What are the main symptoms of COVID-19</srai>
+    </template>
+    </category>
+    
+    <category>
+    <pattern> What are the symptoms *</pattern>
+    <template>
+    <srai>What are the main symptoms of COVID-19</srai>
+    </template>
+    </category>
+    
+</aiml>
